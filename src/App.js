@@ -6,6 +6,7 @@ import Login from "./components/Login";
 import SignUp from "./components/SignUp";
 import MachineNames from "./context/machines/MachineNames";
 function App() {
+  document.body.style.backgroundColor = "#504d4d47";
   return (
     <>
       <MachineNames>
