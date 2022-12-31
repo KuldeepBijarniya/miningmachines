@@ -53,6 +53,7 @@ export default function SignUp() {
           <div className={`from-text ${p1 === p2 ? "visible" : "d-none"}`}>confirm password same as entered password</div>
         </div>
               <button type="submit" disabled={p1 !== p2 || text === ""} className="btn btn-primary" style={{width:"80%",marginLeft:"10%"}}>Sign Up</button>
+              <Link className='dontorhaveaccount mt-4' to="/Login">Already have an account? Login</Link>
             </div>
           </div>
         </div>

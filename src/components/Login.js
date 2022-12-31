@@ -29,6 +29,7 @@ export default function Login() {
                 <input type="password" className="form-control" id="password" name='password' autoComplete="on" minLength={5} required/>
               </div>
               <button type="submit" className="btn btn-primary" style={{width:"80%",marginLeft:"10%"}}>Login</button>
+              <Link className='dontorhaveaccount mt-4' to="/SignUp">Dont have account? Sign Up</Link>
             </div>
           </div>
         </div>

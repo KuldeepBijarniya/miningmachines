@@ -13,14 +13,12 @@ code {
 }
 
 .loginsignup {
-  max-width: 75%;
-  margin-left: 10%;
+  margin: auto;
   border-radius: 30px;
 }
 
 .col-md-8 {
   background-color: lavender;
-  border-radius: 0 30px 30px 0;
 }
 
 .remsignup {
@@ -30,15 +28,19 @@ code {
   background-color: #42bec0
 }
 
+.dontorhaveaccount {
+  display: none;
+}
+
 @media screen and (max-width: 768px) {
-  .loginsignup {
-    max-width: 100%;
-    border-radius: 0;
-  }
 
   .col-md-8 {
     background-color: lavender;
-    border-radius: 0;
+    border-radius: 30px;
+  }
+
+  .col-md-8 h3 {
+    text-align: center;
   }
 
   .remsignup {
@@ -46,6 +48,37 @@ code {
   }
 
   .remsignup button {
+    display: none;
+  }
+
+  .dontorhaveaccount {
+    display: block;
+    text-align: center;
+  }
+}
+
+@media screen and (width: 768px) {
+  .loginsignup {
+    border-radius: 30px;
+  }
+
+  .col-md-8 {
+    border-radius: 0;
+  }
+
+  .remsignup {
+    display: flex;
+  }
+
+  .remsignup button {
+    display: block;
+  }
+
+  .remsignup a {
+    text-decoration: none;
+  }
+
+  .dontorhaveaccount {
     display: none;
   }
 }
