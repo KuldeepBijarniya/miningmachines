@@ -9,7 +9,7 @@ export default function Login() {
     <form onSubmit={onSubmit}>
       <div className="card mb-3 mt-5" style={{ maxWidth: "75%", marginLeft: "10%", borderRadius:"30px" }}>
         <div className="row g-0">
-          <div className="col-md-4 d-flex" style={{alignItems: "center", justifyContent: "center",borderRadius:"30px 0 0 30px"}}><Link to="/SignUp"><button className='btn btn-danger'>Sign Up</button></Link></div>
+          <div className="col-md-4 d-flex" style={{alignItems: "center", justifyContent: "center",borderRadius:"30px 0 0 30px",backgroundColor:"#42bec0"}}><Link to="/SignUp"><button className='btn btn-danger'>Sign Up</button></Link></div>
           <div className="col-md-8" style={{backgroundColor: "lavender",borderRadius:"0 30px 30px 0"}}>
             <div className="card-body">
               <h3>Login Here</h3>
