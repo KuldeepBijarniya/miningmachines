@@ -32,8 +32,17 @@ code {
   display: none;
 }
 
-@media screen and (max-width: 768px) {
+p.card-text {
+  line-height: 1.5em;
+  height: 7.5em;
+  overflow: hidden;
+}
 
+
+@media screen and (max-width: 768px) {
+  .container{
+    max-width: 100%;
+  }
   .col-md-8 {
     background-color: lavender;
     border-radius: 30px;

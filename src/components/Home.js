@@ -10,7 +10,7 @@ export default function Home() {
 
       <div className="row">
                 {a && a.map((ele) => {
-                    return <div className="col-md-4" key={ele.url}>
+                    return <div className="col-lg-4 col-md-6 col-sm-6" key={ele.url}>
                         <Machines img={ele.img} description={ele.description} title={ele.title} url={ele.url} />
                     </div>
                 })}
