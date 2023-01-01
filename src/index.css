@@ -12,6 +12,10 @@ code {
     monospace;
 }
 
+* {
+  scroll-behavior: smooth;
+}
+
 .loginsignup {
   margin: auto;
   border-radius: 30px;
@@ -32,17 +36,43 @@ code {
   display: none;
 }
 
+h5.card-title {
+  line-height: 1.5em;
+  height: 1.5em;
+  overflow: hidden;
+}
+
 p.card-text {
   line-height: 1.5em;
   height: 7.5em;
   overflow: hidden;
 }
 
+.mainhomeback {
+  height: 92vh;
+  background-color: #8e38dd;
+  border-radius: 92vh 0 92vh 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.mainhomeback h2 {
+  color: aliceblue;
+}
+
+.row h2 {
+  text-align: center;
+  margin-top: 55px;
+  color: crimson;
+}
 
 @media screen and (max-width: 768px) {
-  .container{
+  .container {
     max-width: 100%;
   }
+
   .col-md-8 {
     background-color: lavender;
     border-radius: 30px;

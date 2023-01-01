@@ -5,6 +5,7 @@ import About from "./components/About";
 import Login from "./components/Login";
 import SignUp from "./components/SignUp";
 import MachineNames from "./context/machines/MachineNames";
+import Header from "./components/Header";
 function App() {
   document.body.style.backgroundColor = "#504d4d47";
   return (
@@ -12,9 +13,10 @@ function App() {
       <MachineNames>
         <Router>
           <Navbar />
-          <div className="container">
+          <div>
             <Switch>
               <Route exact path="/">
+                <Header />
                 <Home />
               </Route>
               <Route exact path="/about">
